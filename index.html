@@ -7,266 +7,299 @@
   <meta name="description" content="Rowllah T Basheer: Senior Software Developer at SAP Labs India building native iOS, AI and cloud experiences. Volunteer leader, traveller, reader and scuba diver." />
   <meta property="og:title" content="Rowllah T Basheer | Senior Software Developer" />
   <meta property="og:description" content="10 years building enterprise apps at SAP. iOS, SwiftUI, Generative AI, NodeJS. Volunteer leader & scuba diver." />
+  <meta name="theme-color" content="#050d18" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
   <header class="nav">
-    <a href="#top" class="logo">RB<span>.</span></a>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <a href="#top" class="logo">Rowllah<span>.</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav-links">
       <a href="#about">About</a>
-      <a href="#experience">Experience</a>
+      <a href="#experience">Work</a>
       <a href="#skills">Skills</a>
-      <a href="#impact">Impact</a>
-      <a href="#beyond">Beyond Code</a>
-      <a href="#contact" class="btn btn-small">Contact</a>
+      <a href="#impact">Recognition</a>
+      <a href="#beyond">Beyond code</a>
+      <a href="#contact" class="nav-cta">Say hello</a>
     </nav>
   </header>
 
   <main id="top">
     <!-- HERO -->
     <section class="hero">
+      <div class="bubbles" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
       <div class="hero-text">
-        <p class="eyebrow">Hi, I'm</p>
-        <h1>Rowllah T Basheer</h1>
-        <h2>Senior Software Developer at <span class="accent">SAP Labs India</span></h2>
+        <p class="status"><span class="dot"></span>Bringing Generative AI to mobile at SAP</p>
+        <h1>Rowllah<br /><em>Basheer</em></h1>
         <p class="lead">
-          I've spent 10 years designing, building and maintaining high-quality enterprise
-          applications, from native iOS apps to AI-powered sales experiences.
-          When I'm not coding, you'll find me volunteering, travelling, reading or diving.
+          Senior Software Developer at <strong>SAP Labs India</strong>. I've spent 10 years crafting
+          enterprise apps, from native iOS to AI-powered sales experiences. Outside work, I
+          lead volunteering programmes, travel, read and dive.
         </p>
         <div class="hero-cta">
-          <a href="#contact" class="btn">Get in touch</a>
-          <a href="https://www.linkedin.com/in/rowllah-t-basheer/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+          <a href="#contact" class="btn">Get in touch <span class="arrow">→</span></a>
+          <a href="#experience" class="btn btn-ghost">See my work</a>
         </div>
-        <ul class="hero-stats">
-          <li><strong>10+</strong><span>years at SAP</span></li>
-          <li><strong>55</strong><span>peer &amp; leader awards</span></li>
-          <li><strong>50k+</strong><span>people reached through volunteering</span></li>
-        </ul>
       </div>
+
       <div class="hero-visual">
         <div class="avatar">
-          <img src="assets/profile.jpg" alt="Rowllah T Basheer" onerror="this.remove()" />
-          <span class="avatar-initials">RB</span>
+          <div class="ring"></div>
+          <div class="avatar-inner">
+            <img src="assets/profile.jpg" alt="Rowllah T Basheer" onerror="this.remove()" />
+            <span class="avatar-initials">RB</span>
+          </div>
         </div>
-        <div class="floating-tag t1">Swift &amp; SwiftUI</div>
-        <div class="floating-tag t2">Generative AI</div>
-        <div class="floating-tag t3">🤿 PADI Diver</div>
+        <div class="chip c1"><span>📱</span>Swift &amp; SwiftUI</div>
+        <div class="chip c2"><span>✨</span>Generative AI</div>
+        <div class="chip c3"><span>🤿</span>Advanced Diver</div>
       </div>
+
+      <ul class="hero-stats">
+        <li><strong data-count="10">0</strong><sup>+</sup><span>years building at SAP</span></li>
+        <li><strong data-count="55">0</strong><span>peer &amp; leader awards</span></li>
+        <li><strong data-count="80">0</strong><sup>+</sup><span>volunteering initiatives led</span></li>
+        <li><strong data-count="50">0</strong><sup>k+</sup><span>lives touched</span></li>
+      </ul>
     </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Swift</span><span>SwiftUI</span><span>Combine</span><span>Generative AI</span><span>NodeJS</span><span>Angular</span><span>Kubernetes</span><span>Docker</span><span>Objective-C</span><span>Kotlin</span><span>GoLang</span><span>ABAP</span><span>UX Design</span><span>Product Security</span>
+        <span>Swift</span><span>SwiftUI</span><span>Combine</span><span>Generative AI</span><span>NodeJS</span><span>Angular</span><span>Kubernetes</span><span>Docker</span><span>Objective-C</span><span>Kotlin</span><span>GoLang</span><span>ABAP</span><span>UX Design</span><span>Product Security</span>
+      </div>
+    </div>
 
     <!-- ABOUT -->
     <section id="about" class="section">
-      <h3 class="section-title">About me</h3>
+      <header class="section-head">
+        <span class="label">01 · About</span>
+        <h3>Engineer by craft, <em>changemaker</em> by heart.</h3>
+      </header>
       <div class="about-grid">
-        <p>
-          I'm a Bangalore-based engineer who loves turning complex business problems into
-          simple, delightful experiences. I started at SAP as a <em>Scholar@SAP</em> building native iOS
-          apps, then moved into CI/CD and release automation for SAP's cloud products, and now
-          build the <strong>SAP Sales Cloud</strong> native iOS app, bringing Generative AI and
-          Business Intelligence into real-world sales scenarios.
+        <p class="about-big">
+          I turn complex business problems into simple, delightful experiences, and I believe
+          technology should do good for both customers and communities.
         </p>
-        <p>
-          I'm also a trained <strong>Product Security Expert</strong>, an alumna of the
-          <strong>Cambridge Rising Women Leaders Program</strong>, and I've spent years leading
-          CSR and volunteering programmes that have reached more than 50,000 people. I care about
-          technology that does good, both for customers and for communities.
-        </p>
+        <div class="about-body">
+          <p>
+            I started at SAP as a <em>Scholar@SAP</em> building native iOS apps, then moved into
+            CI/CD and release automation for SAP's cloud products. Today I build the
+            <strong>SAP Sales Cloud</strong> native iOS app, bringing Generative AI and Business
+            Intelligence into real-world sales.
+          </p>
+          <p>
+            I'm a trained <strong>Product Security Expert</strong>, an alumna of the
+            <strong>Cambridge Rising Women Leaders Program</strong>, and a long-time CSR leader.
+            I'm based in Bangalore, often underwater.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- EXPERIENCE -->
     <section id="experience" class="section">
-      <h3 class="section-title">Experience</h3>
-      <div class="timeline">
-        <article class="tl-item">
-          <div class="tl-meta">
-            <span class="tl-date">Feb 2021 – Present</span>
-            <span class="tl-org">SAP Labs India</span>
+      <header class="section-head">
+        <span class="label">02 · Work</span>
+        <h3>A decade at <em>SAP Labs India</em>.</h3>
+      </header>
+
+      <div class="jobs">
+        <article class="job glass">
+          <div class="job-head">
+            <div>
+              <h4>Senior Software Developer</h4>
+              <p class="job-org">SAP Sales Cloud · Mobile &amp; AI</p>
+            </div>
+            <span class="job-date">2021 — Now</span>
           </div>
-          <div class="tl-body">
-            <h4>Senior Software Developer</h4>
-            <ul>
-              <li>Building the <strong>SAP Sales Cloud</strong> native iOS application with Swift, SwiftUI and Combine.</li>
-              <li>Integrating <strong>Generative AI</strong> and Business Intelligence into native mobile sales scenarios.</li>
-              <li>Building NodeJS web services that power the mobile application.</li>
-              <li>Delivered SAP Sales Cloud integration with <strong>Microsoft Teams</strong> using NodeJS, Angular and ABAP.</li>
-            </ul>
-            <div class="tags"><span>Swift</span><span>SwiftUI</span><span>Combine</span><span>NodeJS</span><span>GenAI</span><span>Angular</span><span>ABAP</span></div>
-          </div>
+          <ul>
+            <li>Building the <strong>SAP Sales Cloud</strong> native iOS application with Swift, SwiftUI and Combine.</li>
+            <li>Integrating <strong>Generative AI</strong> and Business Intelligence into native mobile sales scenarios.</li>
+            <li>Building NodeJS web services that power the mobile application.</li>
+            <li>Delivered SAP Sales Cloud integration with <strong>Microsoft Teams</strong> using NodeJS, Angular and ABAP.</li>
+          </ul>
+          <div class="tags"><span>Swift</span><span>SwiftUI</span><span>Combine</span><span>NodeJS</span><span>GenAI</span><span>Angular</span><span>ABAP</span></div>
         </article>
 
-        <article class="tl-item">
-          <div class="tl-meta">
-            <span class="tl-date">Aug 2017 – Feb 2021</span>
-            <span class="tl-org">SAP Labs India</span>
+        <article class="job glass">
+          <div class="job-head">
+            <div>
+              <h4>Software Developer</h4>
+              <p class="job-org">Assembly, Release &amp; CI/CD</p>
+            </div>
+            <span class="job-date">2017 — 2021</span>
           </div>
-          <div class="tl-body">
-            <h4>Software Developer</h4>
-            <ul>
-              <li>Automated assembly, release and delivery of SAP products with .NET, C#, Angular and SQL.</li>
-              <li>Automated continuous integration and delivery of cloud products using Jenkins, GitHub, Docker, Kubernetes, WhiteSource and Fortify.</li>
-              <li>Supported and consulted for a community of more than <strong>100 development teams</strong> at SAP.</li>
-            </ul>
-            <div class="tags"><span>C#</span><span>.NET</span><span>Angular</span><span>SQL</span><span>Jenkins</span><span>Docker</span><span>Kubernetes</span></div>
-          </div>
+          <ul>
+            <li>Automated assembly, release and delivery of SAP products with .NET, C#, Angular and SQL.</li>
+            <li>Automated continuous integration and delivery of cloud products using Jenkins, GitHub, Docker, Kubernetes, WhiteSource and Fortify.</li>
+            <li>Supported and consulted for a community of more than <strong>100 development teams</strong> at SAP.</li>
+          </ul>
+          <div class="tags"><span>C#</span><span>.NET</span><span>Angular</span><span>SQL</span><span>Jenkins</span><span>Docker</span><span>Kubernetes</span></div>
         </article>
 
-        <article class="tl-item">
-          <div class="tl-meta">
-            <span class="tl-date">Aug 2015 – Aug 2017</span>
-            <span class="tl-org">SAP Labs India</span>
+        <article class="job glass">
+          <div class="job-head">
+            <div>
+              <h4>Scholar@SAP · Associate Developer</h4>
+              <p class="job-org">SAP Retail, Asset Intelligence Network, SuccessFactors</p>
+            </div>
+            <span class="job-date">2015 — 2017</span>
           </div>
-          <div class="tl-body">
-            <h4>Scholar@SAP – Associate Developer</h4>
-            <ul>
-              <li>Built the native iOS app for <strong>SAP Retail</strong> in Objective-C and Swift, including a visit calendar and Apple Watch integration.</li>
-              <li>Built native apps for <strong>Asset Intelligence Network</strong> with barcode scanning, geotagging and voice search. These won <strong>SAP InnoVision 2016</strong>.</li>
-              <li>Built native apps on SAP HANA and OData backend services using the SAP iOS SDK.</li>
-              <li>Automated UI and API tests for SAP SuccessFactors Recruiting with Selenium and Java, and built a framework for API test automation.</li>
-            </ul>
-            <div class="tags"><span>Objective-C</span><span>Swift</span><span>watchOS</span><span>OData</span><span>Selenium</span><span>Java</span></div>
-          </div>
+          <ul>
+            <li>Built the native iOS app for <strong>SAP Retail</strong> in Objective-C and Swift, including a visit calendar and Apple Watch integration.</li>
+            <li>Built native apps for <strong>Asset Intelligence Network</strong> with barcode scanning, geotagging and voice search. These won <strong>SAP InnoVision 2016</strong>.</li>
+            <li>Built native apps on SAP HANA and OData backend services using the SAP iOS SDK.</li>
+            <li>Automated UI and API tests for SAP SuccessFactors Recruiting with Selenium and Java.</li>
+          </ul>
+          <div class="tags"><span>Objective-C</span><span>Swift</span><span>watchOS</span><span>OData</span><span>Selenium</span><span>Java</span></div>
         </article>
       </div>
     </section>
 
     <!-- SKILLS -->
     <section id="skills" class="section">
-      <h3 class="section-title">Skills</h3>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h5>📱 Mobile</h5>
+      <header class="section-head">
+        <span class="label">03 · Skills</span>
+        <h3>Tools I <em>build</em> with.</h3>
+      </header>
+      <div class="bento">
+        <div class="tile glass span-2">
+          <span class="tile-ic">📱</span>
+          <h5>Mobile</h5>
           <p>Swift · SwiftUI · Combine · Objective-C · Android · Kotlin</p>
         </div>
-        <div class="skill-card">
-          <h5>🌐 Web &amp; Backend</h5>
-          <p>NodeJS · JavaScript · Angular · Java · C# · GoLang · ABAP · SQL</p>
-        </div>
-        <div class="skill-card">
-          <h5>🤖 AI &amp; Data</h5>
+        <div class="tile glass">
+          <span class="tile-ic">✨</span>
+          <h5>AI &amp; Data</h5>
           <p>Generative AI · Business Intelligence · SAP HANA · OData</p>
         </div>
-        <div class="skill-card">
-          <h5>⚙️ DevOps &amp; Security</h5>
+        <div class="tile glass">
+          <span class="tile-ic">🌐</span>
+          <h5>Web &amp; Backend</h5>
+          <p>NodeJS · JavaScript · Angular · Java · C# · GoLang · ABAP · SQL</p>
+        </div>
+        <div class="tile glass">
+          <span class="tile-ic">🛡️</span>
+          <h5>DevOps &amp; Security</h5>
           <p>Docker · Kubernetes · Jenkins · CI/CD · Fortify · Secure SDLC</p>
         </div>
-        <div class="skill-card">
-          <h5>🎨 Design</h5>
-          <p>UX Design · Human-centred mobile experiences</p>
-        </div>
-        <div class="skill-card">
-          <h5>🧭 Leadership</h5>
-          <p>Mentoring · Community building · Programme leadership</p>
+        <div class="tile glass">
+          <span class="tile-ic">🎨</span>
+          <h5>Design &amp; Leadership</h5>
+          <p>UX Design · Mentoring · Community building</p>
         </div>
       </div>
     </section>
 
     <!-- IMPACT -->
     <section id="impact" class="section">
-      <h3 class="section-title">Achievements &amp; Certifications</h3>
+      <header class="section-head">
+        <span class="label">04 · Recognition</span>
+        <h3>Awards, learning &amp; <em>milestones</em>.</h3>
+      </header>
       <div class="impact-grid">
-        <div class="card">
-          <h5>🏆 Awards</h5>
+        <div class="glass list-card">
+          <h5>Awards</h5>
           <ul>
-            <li>SAP Annual Award Winner 2022 – Purpose</li>
-            <li>SAP Excellence in Volunteer Leadership '21 &amp; '22</li>
-            <li>SAP InnoVision 2016 Winner – Asset Intelligence Network mobile apps</li>
-            <li>55 awards from peers and leaders at SAP</li>
-            <li>Helped SAP rank No. 1 Great Place to Work in India 2019 (Economic Times)</li>
-            <li>University Gold Medal, plus scholarships for scoring 100% in Computer Science in 10th &amp; 12th</li>
+            <li><b>2022</b>SAP Annual Award Winner, Purpose</li>
+            <li><b>'21 '22</b>SAP Excellence in Volunteer Leadership</li>
+            <li><b>2019</b>Helped SAP rank No. 1 Great Place to Work in India (Economic Times)</li>
+            <li><b>2016</b>SAP InnoVision Winner, Asset Intelligence Network mobile apps</li>
+            <li><b>55×</b>Awards from peers and leaders at SAP</li>
+            <li><b>Gold</b>University Gold Medal, plus scholarships for 100% in Computer Science</li>
           </ul>
         </div>
-        <div class="card">
-          <h5>📜 Certifications &amp; Programmes</h5>
+        <div class="glass list-card">
+          <h5>Certifications &amp; Programmes</h5>
           <ul>
-            <li><strong>Product Security Expert</strong>: one year of end-to-end training in secure software development and operations</li>
-            <li><strong>Cambridge Rising Women Leaders Program 2022</strong></li>
-            <li><strong>SAP Nascent Leadership Program 2021</strong>: 13 weeks, 100 hours of leadership learning</li>
-            <li><strong>PADI Open Water &amp; Advanced Scuba Diver</strong></li>
+            <li><b>Security</b>Product Security Expert: one year of end-to-end secure SDLC training</li>
+            <li><b>2022</b>Cambridge Rising Women Leaders Program</li>
+            <li><b>2021</b>SAP Nascent Leadership Program: 13 weeks, 100 hours</li>
+            <li><b>PADI</b>Open Water &amp; Advanced Scuba Diver</li>
           </ul>
-        </div>
-        <div class="card">
-          <h5>🎓 Education</h5>
+          <h5 class="mt">Education</h5>
           <ul>
-            <li><strong>M.Tech, Software Engineering</strong><br />BITS Pilani (WILP) · 2015–2019 · 7.8 CGPA</li>
-            <li><strong>Bachelor of Computer Applications</strong><br />St Joseph's College of Arts &amp; Science · 2012–2015 · 9.6 CGPA</li>
+            <li><b>M.Tech</b>Software Engineering, BITS Pilani (WILP) · 2015–19 · 7.8 CGPA</li>
+            <li><b>BCA</b>St Joseph's College of Arts &amp; Science · 2012–15 · 9.6 CGPA</li>
           </ul>
         </div>
       </div>
     </section>
 
     <!-- BEYOND CODE -->
-    <section id="beyond" class="section">
-      <h3 class="section-title">Beyond code</h3>
-      <p class="section-intro">Technology is only half the story. I care deeply about giving back, and about exploring the world above and below the water.</p>
-      <div class="volunteer-grid">
-        <div class="vol-card">
+    <section id="beyond" class="section beyond">
+      <header class="section-head">
+        <span class="label">05 · Beyond code</span>
+        <h3>Giving back, and going <em>deeper</em>.</h3>
+      </header>
+      <div class="vol-grid">
+        <div class="vol glass">
           <span class="vol-num">80+</span>
           <h5>CSR Regional Ambassador India</h5>
-          <p>SAP Labs India. Led more than 80 employee volunteering initiatives reaching 50,000+ beneficiaries.</p>
+          <p>Led more than 80 employee volunteering initiatives at SAP Labs India, reaching 50,000+ beneficiaries.</p>
         </div>
-        <div class="vol-card">
-          <span class="vol-num">🌏</span>
-          <h5>ASEAN WISE 2021 Cohort</h5>
-          <p>Angels of Impact. Pro bono technical consulting for social enterprises led by women.</p>
-        </div>
-        <div class="vol-card">
+        <div class="vol glass">
           <span class="vol-num">10+</span>
           <h5>Volunteer Lead, A Little Dream India</h5>
-          <p>Led more than 10 initiatives for children living in shelters across Bangalore.</p>
+          <p>Initiatives for children living in shelters across Bangalore.</p>
         </div>
-        <div class="vol-card">
-          <span class="vol-num">📚</span>
-          <h5>Volunteer Teacher, U&amp;I</h5>
+        <div class="vol glass">
+          <span class="vol-num">ASEAN</span>
+          <h5>WISE 2021 Cohort, Angels of Impact</h5>
+          <p>Pro bono technical consulting for social enterprises led by women.</p>
+        </div>
+        <div class="vol glass">
+          <span class="vol-num">Pro Bono</span>
+          <h5>SAP Accelerate Social Business</h5>
+          <p>Using tech skills to help social businesses scale.</p>
+        </div>
+        <div class="vol glass">
+          <span class="vol-num">U&amp;I</span>
+          <h5>Volunteer Teacher</h5>
           <p>Teaching English to children in shelter homes.</p>
-        </div>
-        <div class="vol-card">
-          <span class="vol-num">🤝</span>
-          <h5>SAP ProBono Consultant</h5>
-          <p>Accelerate Social Business. Using tech skills to help social businesses scale.</p>
         </div>
       </div>
 
       <div class="passions">
-        <div class="passion"><span>✈️</span>Travelling</div>
-        <div class="passion"><span>📖</span>Reading</div>
-        <div class="passion"><span>🤿</span>Scuba diving</div>
-        <div class="passion"><span>💛</span>Volunteering</div>
+        <a class="passion" href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener">✈️ Travel</a>
+        <a class="passion" href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener">📖 Reading</a>
+        <a class="passion" href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener">🤿 Scuba diving</a>
+        <a class="passion" href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener">💛 Volunteering</a>
       </div>
-      <p class="insta-cta">
-        Follow my travels and dives on
-        <a href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener">Instagram @rowllahbasheer</a>
-      </p>
+      <p class="insta-cta">See it all on <a href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener">Instagram @rowllahbasheer ↗</a></p>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section contact">
-      <h3 class="section-title">Let's connect</h3>
-      <p class="section-intro">Want to talk about mobile, AI, tech for good, or the best dive spots? I'd love to hear from you.</p>
-      <div class="contact-links">
-        <a href="mailto:rowllah.b@gmail.com" class="contact-card">
-          <span class="ic">✉️</span><span>rowllah.b@gmail.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/rowllah-t-basheer/" target="_blank" rel="noopener" class="contact-card">
-          <span class="ic">💼</span><span>linkedin.com/in/rowllah-t-basheer</span>
-        </a>
-        <a href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener" class="contact-card">
-          <span class="ic">📸</span><span>@rowllahbasheer</span>
-        </a>
-        <div class="contact-card">
-          <span class="ic">📍</span><span>Bangalore, India</span>
-        </div>
+      <span class="label">06 · Contact</span>
+      <h3 class="contact-title">Let's build something<br /><em>meaningful.</em></h3>
+      <p class="contact-sub">Mobile, AI, tech for good, or the best dive spots. I'd love to hear from you.</p>
+      <a href="mailto:rowllah.b@gmail.com" class="mail">rowllah.b@gmail.com</a>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/rowllah-t-basheer/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://www.instagram.com/rowllahbasheer/" target="_blank" rel="noopener">Instagram ↗</a>
+        <span>Bangalore, India</span>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Rowllah T Basheer · Built with ❤️ and deployed on GitHub Pages</p>
+    <p>© <span id="year"></span> Rowllah T Basheer</p>
+    <a href="#top">Back to surface ↑</a>
   </footer>
 
   <script src="script.js"></script>
