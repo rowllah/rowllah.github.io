@@ -32,7 +32,7 @@ document.querySelectorAll(".glass").forEach((card) => {
 });
 
 const revealTargets = document.querySelectorAll(
-  ".section-head, .about-grid, .job, .tile, .list-card, .vol, .passions, .contact > *"
+  ".section-head, .about-grid, .case, .job, .tile, .list-card, .vol, .passions, .contact > *"
 );
 revealTargets.forEach((el) => el.classList.add("reveal"));
 const revealer = new IntersectionObserver(
