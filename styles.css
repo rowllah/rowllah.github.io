@@ -170,6 +170,7 @@ h3 em, h1 em, .contact-title em {
   font-size: 0.85rem; font-weight: 500;
   box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6);
   animation: float 6s ease-in-out infinite;
+  z-index: 3;
 }
 .c1 { top: 6%; left: -2%; }
 .c2 { top: 48%; right: -6%; animation-delay: -2s; }
